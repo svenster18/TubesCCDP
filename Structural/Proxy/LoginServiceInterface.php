@@ -1,8 +1,8 @@
 <?php 
 
-interface LoginServiceInterface
-{
-    public function login();
-}
+    interface LoginServiceInterface
+    {
+        public function login($nama);
+    }
 
 ?>
