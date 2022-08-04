@@ -2,7 +2,7 @@
 
     interface LoginServiceInterface
     {
-        public function login($nama);
+        public function login($username, $password);
     }
 
 ?>

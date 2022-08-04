@@ -4,8 +4,8 @@
 
     class LoginService implements LoginServiceInterface
     {
-        public function login($nama) {
-            echo "Login Berhasil, Selamat Datang ".$nama; 
+        public function login($username, $password) {
+            echo "Login Berhasil, Selamat Datang ".$username; 
         }
     }
 ?>
