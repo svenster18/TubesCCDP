@@ -1,5 +1,6 @@
 <?php 
 
+    require_once('Builder.php');
     require_once('Receipt.php');
 
     class ReceiptBuilder implements Builder {

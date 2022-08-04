@@ -1,5 +1,6 @@
 <?php 
 
+    require_once('Builder.php');
     require_once('Ticket.php');
 
     class TicketBuilder implements Builder {
