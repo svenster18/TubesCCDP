@@ -15,6 +15,7 @@ echo $trip->getSeats() . "</br>";
 echo $trip->getPerson() . "</br>";
 echo $trip->getPaymentMethod() . "</br></br>";
 
-$trip->setSchedule("07:00-08");
+$trip->setSchedule("07:00-08:00");
+echo $trip->getSchedule() . "</br>";
 $command->undo();
 echo $trip->getSchedule() . "</br>";
