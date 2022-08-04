@@ -2,7 +2,7 @@
 
     require_once('EditHistory.php');
 
-    class Trip {
+    class TripClass {
         private $schedule;
         private $seats;
         private $person;
